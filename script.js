@@ -56,7 +56,7 @@ onValue(shoppingListInDB, function (snapshot) {
       appendItemToShoppingListEl(itemArray);
     });
   } else {
-    shoppingListEl.innerHTML = "No items here ...";
+    shoppingListEl.innerHTML = "No items here, Add item...";
   }
 });
 
